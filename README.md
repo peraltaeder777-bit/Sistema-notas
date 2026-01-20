@@ -14,3 +14,23 @@ En desarrollo 🚧
 
 ## Autor
 Peraltaeder777
+
+## Diagrama de flujo – Registrar estudiante
+
+INICIO
+  ↓
+Mostrar menú
+  ↓
+Seleccionar opción "Registrar estudiante"
+  ↓
+Ingresar nombre del estudiante
+  ↓
+Ingresar identificación
+  ↓
+¿Datos correctos?
+  ├─ NO → Mostrar mensaje de error → Volver a ingresar datos
+  └─ SÍ → Guardar estudiante
+  ↓
+Mostrar mensaje "Estudiante registrado"
+  ↓
+FIN
